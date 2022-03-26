@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.main-manu li a {
+background-color: green;
+color: white;
+padding: 10px 15px;
+text-decoration: none;
+margin-left: -5px;
+border: 1px solid yellow;
+}
+.main-manu li{
+  display:inline-block;
+}
+.mainimanu{
+  text-align: center;
+}
+.main-manu li:hover{
+  background-color: tomato;
+  transition: .3s;
+}

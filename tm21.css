@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header-manu{
+  background: #3498db;
+}
+.header-manu ul{
+ text-align: center; 
+}
+.header-manu ul li{
+  display: inline-block;
+  margin-left: -4px;
+  position: relative;
+  
+}
+.header-manu ul li a{
+  color:#fff;
+  padding: 12px 15px;
+  display: inline-block;
+  text-decoration: none;
+  border-right: 1px solid #ddd;
+}
+.header-manu ul li:first-child a{
+  border-left: 1px solid #ddd;
+}
+.header-manu ul li:hover > a{
+  background: #2980b9;
+}
+/*Dropdown manu start*/
+
+.header-manu ul li ul{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 190px;
+  background:#3498db ;
+  border-top: 1px solid #ddd;
+  transition: .4s;
+}
+.header-manu ul li ul li{
+  display: block;
+  margin-left: 0;
+}
+.header-manu ul li ul li a{
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.header-manu ul ul li:first-child a{
+  border-left:none;
+}
+
+/* Hover efect*/
+.header-manu ul li ul{
+  opacity: 0;
+  visibility: hidden;
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+.header-manu ul li:hover ul{
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+}

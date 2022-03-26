@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#full-web{
+  text-align: center;
+  color: white;
+  
+}
+h1{
+  background-color: #52cd62;
+}
+img{
+  width: 100%;
+  margin-bottom: -5px;
+}
+.pp{
+background-color:#05d2e0;
+}
+
+.lc tr:nth-child(even) {
+  background-color: gray;
+  text-align: center;
+}
+.lc{
+  text-align: center;
+  color: red;
+  margin-left: 50px;
+  background-color: gray;
+}
+h2{
+  background-color:#db6a07 ;
+}
+p{
+  background-color:#05d2e0;
+}
+.kobita{
+  background-color: gray;
+  color: red;
+  text-decoration: none;
+  
+}
+#rt{
+  background: red;
+  color:green;
+  padding: 20px;
+  display: block;
+  
+}

@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.div1{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.div2{
+  width: 200px;
+  height: 200px;
+  background-color:tomato;
+  position: relative;
+  bottom: 130px;
+  left: 70px;
+  
+}
+.div3{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  bottom: 270px;
+  left: 135px;
+}
+
+/* second part */
+
+.maindiv2{
+  padding: 20px;
+  width: 800px;
+  border: 1px solid black;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+.div4{
+  width: 200px;
+  height: 200px;
+  background-color: #f8860b;
+  display: inline-block;
+}
+.div5{
+  width: 200px;
+  height: 200px;
+  background-color:#00d90b;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom:20px;
+}
+.div6{
+  height: 200px;
+  width: 200px;
+  background-color: #cde61e;
+  display: inline-block;
+}
+
+/* Third part*/
+.mainhover{
+  padding: 20px;
+  width: 800px;
+  border: 1px solid black;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+.hoverdiv{
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.hoverdiv img{
+  max-width: 200px;
+
+  
+}
+.inner{
+  position: absolute;
+  top:0;
+  left:0;
+  color: red;
+  text-align: center;
+  width:0;
+  height:0;
+  background-color: #rgba(0,255,44,0.671);
+  visibility: hidden;
+  transition: .2s;
+  opacity: 0;
+}
+.inner h2{
+  margin-top: 110px;
+  font-size: 30px;
+  
+}
+.hoverdiv:hover .inner{
+  height: 100%;
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+  
+}

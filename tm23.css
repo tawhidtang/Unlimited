@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px auto;
+
+}
+.divall{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px auto;
+}
+.div1{
+    transform: translate(10px,50px);
+    background: rgb(0, 172, 23);
+    transition: .4s;
+}
+.div2{
+transform: rotate(20deg);
+background: rgb(238, 23, 23);
+transition: .4s;
+}
+.div3{
+background: blue;
+transform: skew(30deg);
+transition: .4s;
+
+}
+.div4{
+background: tomato;
+transform: scale(.5);
+transition: .4s;
+}
+.div2:hover{
+    background: rgb(5, 184, 20);
+    transform: rotate(-20deg);
+}
+.div1:hover{
+    background: red;
+    transform: translate(-10px,-50px);
+}
+.div3:hover{
+    background: rgb(255, 0, 149);
+    transform: skew(-30deg);
+}
+.div4:hover{
+    background: blue;
+    transform: scale(2);
+}
+.imgdiv{
+margin:50px auto;
+border: 1px solid red;
+text-align: center;
+width: 400px;
+height: 400px;
+padding: 50px;
+position: relative;
+}
+img{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .4s;
+    position: absolute;
+    left: 225px;
+    top: 222px;
+    
+}
+.imgdiv img:hover{
+    transform: scale(9) rotate(360deg);
+}

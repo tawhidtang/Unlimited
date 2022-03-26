@@ -1,0 +1,385 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix{
+    clear: both;
+    display: block;
+}
+h1,h2,h3,h4,h5,h6, {
+    font-family:arial black;
+}
+.mainDiv {
+    width:1170px;
+    border:1px solid black;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+}
+.menu {
+    overflow: hidden;
+}
+.menu_left {
+    float:left;
+    width: 300px;
+    background:#3498db ;
+    padding-right:21px ;
+    max-width:100%;
+}
+img{
+  max-width:100%;
+  border-radius: 5px;
+  margin-left: 0;
+}
+.menu_right {float:right;width: 850px;}
+.fake{
+    width: 850px;
+    height: 53px;
+    background:  #3498db;
+    position: absolute;
+    left: 320px;
+    top: 53px;
+}
+.header-manu{
+    background: #3498db;
+    position: absolute;
+    left: 320px;
+    top: 0;
+}
+.header-manu ul{
+    text-align: center;
+}
+.header-manu ul li{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    margin-left: -5px;
+    position: relative;
+}
+.header-manu ul li:first-child a{
+    border-left: 1px solid #ddd ;
+    background: tomato;
+}
+
+.header-manu ul li:nth-child(2) a::after{
+  content: "\f101";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color:#6f9a6f;
+    margin-left: 5px;
+  
+}
+.header-manu ul li:nth-child(3) a::after{
+  content: "\f101";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color:#6f9a6f;
+    margin-left: 5px;
+  
+}
+.header-manu ul li:nth-child(4) a::after{
+  content: "\f101";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color:#6f9a6f;
+    margin-left: 5px;
+  
+}
+.header-manu ul li:nth-child(5) a::after{
+  content: "\f101";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color:#6f9a6f;
+    margin-left: 5px;
+  
+}
+.header-manu ul li a:hover::after{
+  content: "\f103";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color:green;
+    margin-left: 5px;
+}
+.header-manu ul li:first-child a:hover::after{
+  visibility: hidden;
+}
+.header-manu ul li:first-child a::before{
+    content: "\f015";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color:white;
+    margin-right: 5px;
+}
+.header-manu ul li a{
+    padding: 15px 30px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-manu ul li:hover > a{
+    background: #2980b9;
+}
+.header-manu ul li ul{
+    background: #3498db;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 264px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaley(0);
+    transform-origin: top center;
+    transition: .5s;
+}
+.header-manu ul li ul li{
+    margin-left: 0;
+    display: block;
+}
+.header-manu ul ul li:first-child a{
+    border-left: none ;
+    background: #3498db;
+}
+.header-manu ul li ul li a{
+    display: block;
+    border: none;
+    border-top: 1px solid rgb(207, 203, 203);
+    
+}
+.header-manu ul li ul li a::after{
+  content: "";
+  visibility: hidden;
+}
+.header-manu ul li ul li:first-child a::before{
+  content: "";
+  visibility: hidden;
+}
+.header-manu ul li:hover ul{
+    opacity: 1;
+    visibility: visible ;
+    transform: scaley(1);
+}
+
+.aboutdesing img{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 10px;
+}
+
+.headerleft {
+    background: blue;
+    height: 250px;
+    color: rgb(4, 158, 4);
+    text-align: center;
+    background-image:url(https://thumbs.dreamstime.com/b/blue-spiritual-sparkle-butterfly-message-banner-wide-gaseous-flowing-glittering-shimmering-beautiful-single-open-winged-173948582.jpg);
+    background-repeat:no-repeat;
+    background-size:cover
+    
+}
+.headerleft h1{
+background: none;
+}
+.headerleft h2{
+color: white;
+margin-top: 30px;
+}
+.headerleft p{
+    margin-top: 20px;
+color: black;
+}
+.aboutdesing {
+    width: 224px;
+    height: 670px;
+    border: 1px solid #a5a5a5;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 16px;
+    border-radius: 5px;
+    float: left;
+}
+.aboutdesing img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-left: 0;
+}
+.about{
+    background: green;
+  
+}
+.about h1::before{
+  content: "\f2bb";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: white;
+  margin-right:5px;
+  
+}
+.about h1{
+   color: white; 
+   margin-left:287px;
+    
+}
+
+.aboutLeft h3 {
+    background:rgb(141, 141, 194);
+    width: 320px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 89px;
+    margin-top: 30px;
+}
+.aboutLeft p {
+    background:rgb(187, 167, 103);
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 89px;
+    margin-top: 10px;
+}
+.aboutLeft h3 {
+    color: white;
+}
+.sectionleft {
+    background: #0e4369;
+    overflow: hidden;
+    width: 778px;
+    float:left;
+}
+.sectionright  {
+    background: #0093d0;
+    width:390px;
+    float:right;
+    border: 1px solid red;
+}
+.sectionright h2 {   
+color: rgb(201, 23, 23); 
+text-align: center;  
+height:50px;
+margin-top: 10px;
+}
+.sectionright h2::after{
+    content: "\f071";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #efb23c;
+}
+.sectionright ul{
+background: #00aef8;
+
+}
+.sectionright ul li{
+list-style: none;
+border-top: 1px solid blue;
+transition: .4s;
+border-radius: 10px;
+}
+.sectionright ul li:hover a{
+    background: #2252f0;
+    color: white;
+    transform: scaleY(1.2);
+    border-radius: 10px;
+}
+.sectionright ul li a{
+color: rgb(60, 63, 233);
+padding: 10px 15px;
+display: inline-block;
+text-decoration: none;
+}
+.sectionright ul li a::before{
+    content: "\f0a4";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 600;
+    color: #cd3a3a;
+    margin-right: 5px;
+}
+.sectionright ul li a:hover::before{
+  content: "\f0a4";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 600;
+    color:green;
+    margin-right: 5px;
+}
+.footerDiv {
+    background:black;
+    height: 48px;
+    text-align: center;
+}
+.section {
+    overflow: hidden;
+}
+.aboutdesing h2, p {
+    color: white;
+}
+.social{
+  height: 172px;
+  width:778px;
+  background:#0e4369;
+  position: absolute;
+  left:0;
+  top:1100px;
+}
+.social h2{
+  color: white;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.pp ul li{
+  display: inline-block;
+}
+.pp ul li a{
+  display: inline-block;
+  color: white;
+  margin: 5px 5px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.fab{
+  font-size: 40px;
+  color:white;
+  margin-left: 15px;
+}
+.footer-top{
+  background: #95a5a6;
+  height: 120px;
+}
+.ft-left{
+  float: left;
+  background: #95a5a6;
+  
+}
+.ft-left ul li{
+ list-style: none; 
+ margin-left: 15px;
+
+}
+ .ft-left ul li a{
+  text-decoration: none;
+  padding:3px 0;
+  display: inline-block;
+ }
+.ft-right{
+  float: right;
+  background: #95a5a6;
+}
+.ft-right ul li{
+ list-style: none;
+ text-decoration: none;
+}
+.ft-right ul li a{
+  text-decoration: none;
+  padding: 3px 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-bottom{
+  background: #7f8c8d;
+  height:50px;
+  text-align: center;
+}
+.footer-bottom p{
+ padding-top: 10px;
+}
